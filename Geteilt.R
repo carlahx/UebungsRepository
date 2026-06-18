@@ -1,6 +1,7 @@
 library(tidyverse)
-source("/Users/lachlaneckardt/Developer/Bachelor/WiPo-Referat/UebungsRepository/Lachie.R")
-source("/Users/lachlaneckardt/Developer/Bachelor/WiPo-Referat/UebungsRepository/Carla.R")
+
+source("./Lachie.R")
+source("./Carla.R")
 
 
 df <- data.frame(
