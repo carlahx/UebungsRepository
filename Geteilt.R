@@ -1,3 +1,8 @@
+library(tidyverse)
+source("/Users/lachlaneckardt/Developer/Bachelor/WiPo-Referat/UebungsRepository/Lachie.R")
+source("/Users/lachlaneckardt/Developer/Bachelor/WiPo-Referat/UebungsRepository/Carla.R")
+
+
 df <- data.frame(
   cntry = c("AU", "AT", "BE", "BG", "CA", "CZ", "DK", "EE", "FI", "FR", "DE", 
             "GR", "HU", "IS", "IE", "IT", "JP", "LV", "LT", "LU", "MT", "NL", 
