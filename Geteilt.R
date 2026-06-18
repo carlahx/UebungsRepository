@@ -10,3 +10,12 @@ df <- data.frame(
             "NZ", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "CH", "GB", 
             "US")
 )
+
+
+df <- df %>% 
+  left_join(
+    Lachie_df %>% select(cntry, lachie_col),
+    by = "cntry"
+  )
+
+         
