@@ -1,4 +1,4 @@
-library(tidyvers)
+library(tidyverse)
 
 df_carla <- data.frame(
   cntry = c("AU", "AT", "BE", "BG", "CA", "CZ", "DK", "EE", "FI", "FR", "DE", 
